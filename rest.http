@@ -1,0 +1,20 @@
+### Create
+POST https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+Content-Type: application/json
+
+{
+    "name": "cutiekitty",
+    "age" : 3
+}
+
+### List
+GET https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten
+
+### Get
+GET https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutiekitty
+
+### Update
+PUT https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutiekitty
+
+### Delete
+DELETE https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutiekitty
