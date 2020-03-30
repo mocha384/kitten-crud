@@ -15,6 +15,11 @@ GET https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutieki
 
 ### Update
 PUT https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutiekitty
+Content-Type: application/json
 
+{
+    "name": "cutiekitty",
+    "age" : 7
+}
 ### Delete
 DELETE https://d1ls7glf3g.execute-api.us-east-1.amazonaws.com/dev/v1/kitten/cutiekitty

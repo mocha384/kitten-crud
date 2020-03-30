@@ -56,31 +56,31 @@ provider:
 
 functions:
   create:
-    handler: handler.create
+    handler: kitten/create.create
     events:
       - http:
           path: /v1/kitten
           method: post
   list:
-    handler: handler.list
+    handler: kitten/list.list
     events:
       - http:
           path: /v1/kitten
           method: get
   get:
-    handler: handler.get
+    handler: kitten/get.get
     events:
       - http:
           path: /v1/kitten/{name}
           method: get
   update:
-    handler: handler.update
+    handler: kitten/update.update
     events:
       - http:
           path: /v1/kitten/{name}
           method: put
   delete:
-    handler: handler.delete
+    handler: kitten/delete.delete
     events:
       - http:
           path: /v1/kitten/{name}
